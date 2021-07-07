@@ -1,0 +1,38 @@
+/*  Général */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Tourney';
+}
+
+/* Header */
+
+header {
+    background-image: url('img/imgHeader.webp');
+    background-size: cover;
+    height: 80vh;
+}
+
+.text-intro{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.preTxt{
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 90px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 70;
+}
