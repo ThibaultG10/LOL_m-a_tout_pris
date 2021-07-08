@@ -40,14 +40,13 @@ h1 {
 
 /* Event */
 #event {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    border-bottom: 1px solid #000;
+    margin-top: 50px;
 }
 
 /* Parallax */
 
 #parallax {
+    margin-top: 100px;
     position: relative;
     min-height: 200px;
     background: url(img/LOL_defeat.jpeg);
