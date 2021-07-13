@@ -67,3 +67,38 @@ h1 {
 #temoignages img {
     margin-top: -50px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 768px){
+
+    header {
+        height: 60vh;
+    }
+
+    .text-intro {
+        padding-top: 200px;
+    }
+
+    .preTxt {
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .preTxt {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 39px;
+    }
+    
+    .text-intro a {
+        transform:scale(0.8);    }
+}
