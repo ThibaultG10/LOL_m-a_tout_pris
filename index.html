@@ -1,182 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lol m'a tout pris</title>
-    <!-- CSS Bootsrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Custom Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lol m'a tout pris</title>
+	<!-- CSS Bootsrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Custom Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
-    <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="main-nav">
-    	<div class="container">
-        	<a class="navbar-brand" href="#">Lol m'a tout pris</a>
-        	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        	</button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">A propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Evenement</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+	<!-- Navbar -->
 
-    <!-- Header, grande image -->
-
-    <header class="text-center" id="top">
-
-        <div class= "text-intro">
-
-            <div class="preTxt text-white font-italic">Retrouvez le bonheur</div>
-            <h1>Lol m'a tout pris</h1>
-            <a href="#" class="btn btn-primary mt-3">En Savoir Plus</a>
-        </div>
-
-    </header>
-
-    <!-- Section Evenement -->
-
-    <section class="py-5" id="event">
-        <div class="container">
-            <div class="row">
-                <div id ="txtEvent" class="col-md-6 align-self-center">
-                    <h3><strong>Evenement!</strong></h3>
-                    <p>Rejoins notre évènement, Un compte à rebours est lancé et à la fin de ce dernier toutes les personnes désirant se libérer de l'enfer qu'est LOL vont désinstaller le jeu!</p>
-                    <p>N'hésite plus et fais parti des miliers de personnes à retrouver le goût de la vie</p>
-                    <button class="btn btn-outline-primary">Participer</button>
-                </div>
-                <div class="col-md-6 align-self-center pl-4">
-                    <ul class="list-group list-group-horizontal text-center" id="countdown">
-                        <li class="list-group-item">25j</li>
-                        <li class="list-group-item">20h</li>
-                        <li class="list-group-item">54min</li>
-                        <li class="list-group-item">32sec</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Parallax effect -->
-
-    <section class="py-5" id="parallax">
-        <div class="container py-5">
-            <h2 class="pb-3">Raconte nous ta dernière lose</h2>
-            <p class="d-none d-md-block">C'en est trop pour toi et tu cherches des personnes qui sont prêt à écouter les mésaventures que tu traverses dans la fameuse Faille De L'invocateur</p>
-            <a href="#" class="btn btn-primary">Clique ici</a>
-        </div>
-    </section>
-
-    <!-- Temoignages -->
-
-    <section id="temoignages" class="my-5 text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="info-header mb-5">
-                <h2 class="pb-3">Nos Témoignages</h2>
-                <p class="lead pb-5">Des hommes et des femmes brisés ont décidé de partager leurs peine et leur souffrance.</p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <img src="img/homme depression.jpeg" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
-                  <h3>Bob</h3>
-                  <h5 class="text-muted">Ex joueur semi-pro</h5>
-                  <p>C'est mauvais, c'est mauvais, il n'y a rien dans ma vie qui est nulle mais depuis que je joue à lol je deviens aigris, je m'énerve pour rien, je suis triste alords que pourtant j'ai tout dans ma vie, une copine un bon travail et même un chien.. LOL m'a tout pris</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <img src="img/femmepleur.jpeg" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
-                  <h3>Alice</h3>
-                  <h5 class="text-muted">Hard Stuck bronze 3</h5>
-                  <p>Au début je jouais à lol avec les amis du discord c'était sympa de jouer Yumi en ARAM mais depuis que je me suis lancé un objectif de reach le silver j'ai totalement perdu gout à la vie... LOL est un jeu remplis de détraqués et pourtant j'en suis accroc. </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <img src="img/crying-4577567_640.jpeg" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
-                  <h3>Mamanator</h3>
-                  <h5 class="text-muted">OTP Teemo</h5>
-                  <p>J'aime beaucoup cette nouvelle saison mon build à base de tiamat est enfin efficient, cependant malgré mes 10000 games sur mon perso préféré Teemo avec embrasement et fantome on me traite de noob, chaque jour c'est pareil je fais 15 games et on fait que de m'insulter. Enfin.. c'est sad la commu.. </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <img src="img/sardoche_rage.png" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
-                  <h3>Sardoche</h3>
-                  <h5 class="text-muted">Le roi du sel</h5>
-                  <p>Le discord jvc m'a eu ils ont été plus fort.Mais c'était sur en faite!! RDV en Corée</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          </div>
-          
-          </div>
-        </div>
-</section>
-	<!-- Newsletter -->
-<section id="newsletter" class="text-center p-5 bg-dark text-white">
-  <div class="container">
-    <div class="row g-3">
-      <div class="col">
-        <h3>Abonnez-vous à la newsletter</h3>
-		<p>Des conseils de professionnels pour vous aidez à mieux gérer vos émotions et moins tilt lors de vos Solo Q</p>
-		<form class="form-inline justify-content-center">
-			<input type="text" name="Nom" id="nom" class="form-control mb-2 mr-2" placeholder="Votre nom">
-			<input type="text" name="Email" id="mail" class="form-control mb-2 mr-2" placeholder="Votre email">
-			<button class="btn btn-primary mb-2">Soumettre</button>
-		</form>
-	</div>
-    </div>
-  </div>
-</section>
-
-<footer id="main-footer" class="text-center">
-	<div class="container">
-		<div class="row">
-			<p>Copyright &copy;</p>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="main-nav">
+		<div class="container">
+			<a class="navbar-brand" href="#">Lol m'a tout pris</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">A propos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">Evenement</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-	</div>
-</footer>
+	</nav>
 
-<!-- Bundle Script -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<!-- Header, grande image -->
+
+	<header class="text-center" id="top">
+		<div class="text-intro">
+			<div class="preTxt text-white font-italic">Retrouvez le bonheur</div>
+			<h1>Lol m'a tout pris</h1>
+			<a href="#" class="btn btn-primary mt-3">En Savoir Plus</a>
+		</div>
+	</header>
+
+	<!-- Section Evenement -->
+
+	<section class="py-5" id="event">
+		<div class="container">
+			<div class="row">
+				<div id="txtEvent" class="col-md-6 align-self-center">
+					<h3><strong>Evenement!</strong></h3>
+					<p>Rejoins notre évènement, Un compte à rebours est lancé et à la fin de ce dernier toutes les
+						personnes désirant se libérer de l'enfer qu'est LOL vont désinstaller le jeu!</p>
+					<p>N'hésite plus et fais parti des miliers de personnes à retrouver le goût de la vie</p>
+					<button class="btn btn-outline-primary">Participer</button>
+				</div>
+				<div class="col-md-6 align-self-center pl-4">
+					<ul class="list-group list-group-horizontal text-center" id="countdown">
+						<li class="list-group-item">25j</li>
+						<li class="list-group-item">20h</li>
+						<li class="list-group-item">54min</li>
+						<li class="list-group-item">32sec</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Parallax effect -->
+
+	<section class="py-5" id="parallax">
+		<div class="container py-5">
+			<h2 class="pb-3">Raconte nous ta dernière lose</h2>
+			<p class="d-none d-md-block">C'en est trop pour toi et tu cherches des personnes qui sont prêt à écouter les
+				mésaventures que tu traverses dans la fameuse Faille De L'invocateur</p>
+			<a href="#" class="btn btn-primary">Clique ici</a>
+		</div>
+	</section>
+
+	<!-- Temoignages -->
+
+	<section id="temoignages" class="my-5 text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="info-header mb-5">
+						<h2 class="pb-3">Nos Témoignages</h2>
+						<p class="lead pb-5">Des hommes et des femmes brisés ont décidé de partager leurs peine et leur
+							souffrance.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/homme depression.jpeg" alt="visage"
+								class="img-fluid rounded-circle w-50 mb-3">
+							<h3>Bob</h3>
+							<h5 class="text-muted">Ex joueur semi-pro</h5>
+							<p>C'est mauvais, c'est mauvais, il n'y a rien dans ma vie qui est nulle mais depuis que je
+								joue à lol je deviens aigris, je m'énerve pour rien, je suis triste alords que pourtant
+								j'ai tout dans ma vie, une copine un bon travail et même un chien.. LOL m'a tout pris
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/femmepleur.jpeg" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
+							<h3>Alice</h3>
+							<h5 class="text-muted">Hard Stuck bronze 3</h5>
+							<p>Au début je jouais à lol avec les amis du discord c'était sympa de jouer Yumi en ARAM
+								mais depuis que je me suis lancé un objectif de reach le silver j'ai totalement perdu
+								gout à la vie... LOL est un jeu remplis de détraqués et pourtant j'en suis accroc. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/crying-4577567_640.jpeg" alt="visage"
+								class="img-fluid rounded-circle w-50 mb-3">
+							<h3>Mamanator</h3>
+							<h5 class="text-muted">OTP Teemo</h5>
+							<p>J'aime beaucoup cette nouvelle saison mon build à base de tiamat est enfin efficient,
+								cependant malgré mes 10000 games sur mon perso préféré Teemo avec embrasement et fantome
+								on me traite de noob, chaque jour c'est pareil je fais 15 games et on fait que de
+								m'insulter. Enfin.. c'est sad la commu.. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<img src="img/sardoche_rage.png" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
+							<h3>Sardoche</h3>
+							<h5 class="text-muted">Le roi du sel</h5>
+							<p>Le discord jvc m'a eu ils ont été plus fort.Mais c'était sur en faite!! RDV en Corée</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Newsletter -->
+	<section id="newsletter" class="text-center p-5 bg-dark text-white">
+		<div class="container">
+			<div class="row g-3">
+				<div class="col">
+					<h3>Abonnez-vous à la newsletter</h3>
+					<p>Des conseils de professionnels pour vous aidez à mieux gérer vos émotions et moins tilt lors de
+						vos Solo Q</p>
+					<form class="form-inline justify-content-center">
+						<input type="text" name="Nom" id="nom" class="form-control mb-2 mr-2" placeholder="Votre nom">
+						<input type="text" name="Email" id="mail" class="form-control mb-2 mr-2"
+							placeholder="Votre email">
+						<button class="btn btn-primary mb-2">Soumettre</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="main-footer" class="text-center">
+		<div class="container">
+			<div class="row">
+				<p>Copyright &copy;</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Bundle Script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
 </body>
 
 
