@@ -67,6 +67,12 @@ h1 {
 #temoignages img {
     margin-top: -50px;
 }
+/* Page Evenement */
+
+#countdown {
+    font-size: 75px;
+    color:orange;
+}
 
 /* Media Queries */
 
@@ -87,6 +93,10 @@ h1 {
     h1{
         font-size: 60px;
     }
+
+    #countdown {
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -102,3 +112,4 @@ h1 {
     .text-intro a {
         transform:scale(0.8);    }
 }
+
